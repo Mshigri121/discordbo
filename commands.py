@@ -4,7 +4,6 @@ from itertools import cycle
 
 bot = commands.Bot(command_prefix="!")
 #vc = guild.voice_channels
-status = cycle(['in Hollywoo', 'Diane'])
 
 @bot.command()
 async def tt(ctx):
