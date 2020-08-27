@@ -27,7 +27,7 @@ async def on_message(message):
         await message.channel.send('I hope your not talking to me?')
         print("Philbert has responded to the chat")
         time.sleep(10)
-        if str(message.author) == "Glass#3651":
+        if str(message.author) == "DISCORD ID # DISCORD ID NUMBER":
             await message.channel.send('Why did you bring me into this world.')
             print("Philbert has responded to creator")
     # elif message.content.startswith('connect'):
@@ -40,4 +40,4 @@ async def on_message(message):
 
 
 
-client.run('NzE5NzEwMTkyNzkwNDA1MTYw.Xt7Z1A.6NDlTdxaJ22GfxGHkfzERdkD7Ns')
+client.run('INSERT TOKEN HERE')
