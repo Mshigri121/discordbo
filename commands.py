@@ -30,4 +30,4 @@ async def leave_voice(ctx):
         server = ctx.message.guild.voice_client
         await server.disconnect()
 
-bot.run('NzE5NzEwMTkyNzkwNDA1MTYw.Xt7Z1A.6NDlTdxaJ22GfxGHkfzERdkD7Ns')
+bot.run('INSERT TOKEN HERE')
